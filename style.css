@@ -73,6 +73,7 @@ button {
     word-break: break-all;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .heading {
@@ -103,4 +104,42 @@ button {
     text-align: center;
     justify-content: center;
     padding: 20px 0px 20px 0px;
+}
+
+.quotes {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote,
+.author {
+    display: flex;
+    justify-content: center;
+}
+
+.call {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    background-color: #3882F6;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.title,
+.desc {
+    color: white;
+}
+
+.sign-up-call {
+    border: 1px solid white;
+    display: flex;
+    border-radius: 5px;
 }
